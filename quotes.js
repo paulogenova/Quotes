@@ -2,7 +2,7 @@ $(document).ready(function () {
 
   
     
-        var images = [
+    /*    var images = [
             'img/road.jpeg',
             'img/autumn-road.jpeg',
             'img/landscape.jpeg',
@@ -22,7 +22,7 @@ $(document).ready(function () {
                 'background-image' : "radial-gradient(#808080, transparent 50%, #fff 97%)," + "url(" + images[index] + ")",
             });
             
-        });
+        });*/
     
     $('.btn').click(function () {        
         var API = 'https://api.forismatic.com/api/1.0/?method=getQuote&key=457653&format=jsonp&jsonp=?&lang=en';
