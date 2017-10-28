@@ -24,7 +24,7 @@ $(document).ready(function () {
             
         });*/
     
-    $('.btn').click(function () {        
+    $('button').click(function () {        
         var API = 'https://api.forismatic.com/api/1.0/?method=getQuote&key=457653&format=jsonp&jsonp=?&lang=en';
 
 
