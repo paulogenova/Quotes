@@ -25,7 +25,7 @@ $(document).ready(function () {
         });*/
     
     $('button').click(function () {        
-        var API = 'http://api.forismatic.com/api/1.0/?method=getQuote&key=457653&format=jsonp&jsonp=?&lang=en';
+        var API = 'http://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=jsonp&jsonp=?';
 
 
         $.getJSON(API, getQuote);
