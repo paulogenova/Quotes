@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
-  
-    
+
+
     /*    var images = [
             'img/road.jpeg',
             'img/autumn-road.jpeg',
@@ -23,8 +23,8 @@ $(document).ready(function () {
             });
             
         });*/
-    
-    $('button').click(function () {        
+
+    $('button').click(function () {
         var API = 'https://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=jsonp&jsonp=?';
 
 
@@ -33,10 +33,9 @@ $(document).ready(function () {
         function getQuote(data) {
             var quote = data.quoteText;
             var author = data.quoteAuthor;
-            $('p').html(quote);
+            $('p').html('"' + quote '"');
             $('em').html(author);
-
         }
-   
     });
+
 });
